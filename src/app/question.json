@@ -1,0 +1,223 @@
+[
+  {
+    "id": "panne-prise-220v",
+    "titre": "Intervention en sécurité sur une panne de prise de courant 220 V",
+    "categorie": "prise",
+    "niveau": "débutant",
+    "symptomes": [
+      "Aucune tension mesurée à la prise",
+      "Appareils branchés non alimentés",
+      "Disjoncteur non déclenché"
+    ],
+    "outils_requis": [
+      "Multimètre ou vérificateur de tension",
+      "Tournevis isolé",
+      "Lampe témoin (optionnel)",
+      "Pince à dénuder (si remplacement nécessaire)"
+    ],
+    "etapes": [
+      {
+        "numero": 1,
+        "description": "Couper le courant au niveau du tableau électrique",
+        "details": "Identifiez le circuit de la prise concernée et coupez le disjoncteur correspondant. Vérifiez l'absence de tension avec un testeur."
+      },
+      {
+        "numero": 2,
+        "description": "Contrôler visuellement la prise",
+        "details": "Retirez la plaque de finition et inspectez la prise pour déceler d’éventuels signes de brûlure, de fils desserrés ou de dégâts."
+      },
+      {
+        "numero": 3,
+        "description": "Vérifier le serrage des fils",
+        "details": "Avec le courant coupé, resserrez délicatement les connexions (neutre, phase, terre) avec un tournevis isolé."
+      },
+      {
+        "numero": 4,
+        "description": "Tester la continuité du circuit",
+        "details": "Utilisez un multimètre pour vérifier la continuité entre les bornes de la prise et le tableau. Une coupure pourrait se situer dans une boîte de dérivation ou une autre prise en série."
+      },
+      {
+        "numero": 4.5,
+        "description": "Descendre tous les disjoncteurs divisionnaires",
+        "details": "Avant de remettre le courant, abaissez tous les disjoncteurs du tableau. Ensuite, remontez-les un à un afin de localiser le circuit fautif en toute sécurité. Si un disjoncteur déclenche à nouveau, cela permet d’isoler précisément la ligne en cause."
+      },
+      {
+        "numero": 4.6,
+        "description": "Vérifier les tensions avant réenclenchement",
+        "details": "Mesurez la tension entre chaque phase et le neutre avant de réenclencher les disjoncteurs. Si vous êtes en triphasé, une mauvaise connexion du neutre peut entraîner des tensions dangereuses (> 230 V) entre phase et neutre."
+      },
+      {
+        "numero": 5,
+        "description": "Remettre le courant et tester",
+        "details": "Réactivez le disjoncteur principal puis celui du circuit de la prise. Testez la prise avec une lampe témoin ou un multimètre."
+      }
+    ],
+    "normes_referencees": [
+      "RGIE 2020 - Chapitre 7.22 : Installations électriques domestiques",
+      "NBN C 15-100 - Art. 771.314 : Dispositions générales de sécurité"
+    ],
+    "precautions": [
+      "Ne jamais intervenir sur un circuit sous tension",
+      "Utiliser des outils isolés certifiés",
+      "Mesurer les tensions en triphasé avant tout réenclenchement",
+      "Si doute, faire appel à un électricien agréé"
+    ],
+    "tags": [
+      "sécurité",
+      "prise",
+      "220v",
+      "triphasé",
+      "diagnostic",
+      "débutant",
+      "rgie"
+    ]
+  },
+  {
+    "id": "disjoncteur-saut-regulierement",
+    "titre": "Disjoncteur qui saute régulièrement",
+    "categorie": "tableau",
+    "niveau": "intermédiaire",
+    "symptomes": [
+      "Disjoncteur se déclenche souvent",
+      "Perte de courant soudaine",
+      "Un seul circuit est affecté"
+    ],
+    "outils_requis": ["Multimètre", "Pince ampèremétrique (si disponible)"],
+    "etapes": [
+      {
+        "numero": 1,
+        "description": "Identifier le circuit concerné",
+        "details": "Notez quels appareils ou prises cessent de fonctionner lorsque le disjoncteur saute."
+      },
+      {
+        "numero": 2,
+        "description": "Débrancher tous les appareils du circuit",
+        "details": "Débranchez tous les équipements connectés au circuit problématique."
+      },
+      {
+        "numero": 3,
+        "description": "Réenclencher le disjoncteur",
+        "details": "Si le disjoncteur tient sans charge, le problème est probablement dû à un appareil ou à une surcharge."
+      },
+      {
+        "numero": 4,
+        "description": "Rebrancher les appareils un par un",
+        "details": "Observez si le disjoncteur saute au rebranchement d’un appareil en particulier."
+      },
+      {
+        "numero": 5,
+        "description": "Mesurer l’intensité du circuit",
+        "details": "Utilisez une pince ampèremétrique pour mesurer le courant et vérifier qu’il ne dépasse pas la capacité du disjoncteur (ex. : 16 A)."
+      }
+    ],
+    "normes_referencees": [
+      "RGIE 2020 - Art. 7.22.14",
+      "NBN C 15-100 - surcharge circuit"
+    ],
+    "precautions": [
+      "Toujours couper le courant avant de toucher aux câblages",
+      "Remplacer les disjoncteurs uniquement par un modèle de même calibre",
+      "Vérifier l’état des gaines et connexions"
+    ],
+    "tags": ["surcharge", "disjoncteur", "sécurité", "diagnostic"]
+  },
+  {
+    "id": "defaut-isolement",
+    "titre": "Défaut d’isolement dans un circuit",
+    "categorie": "tableau",
+    "niveau": "avancé",
+    "symptomes": [
+      "Le différentiel saute",
+      "Humidité dans l’installation",
+      "Disjoncteur général déclenché sans surcharge"
+    ],
+    "outils_requis": [
+      "Multimètre",
+      "Mégohmmètre (test isolement)",
+      "Lampe témoin"
+    ],
+    "etapes": [
+      {
+        "numero": 1,
+        "description": "Couper complètement l’alimentation",
+        "details": "Assurez-vous que toute l’installation est hors tension pour procéder en toute sécurité."
+      },
+      {
+        "numero": 2,
+        "description": "Isoler physiquement les circuits",
+        "details": "Déconnectez les circuits un à un au tableau afin de les tester séparément."
+      },
+      {
+        "numero": 3,
+        "description": "Mesurer la résistance d’isolement",
+        "details": "Utilisez un mégohmmètre pour tester la résistance entre phase/neutre et la terre. Une valeur < 1 MΩ indique un défaut."
+      },
+      {
+        "numero": 4,
+        "description": "Localiser la fuite",
+        "details": "Inspectez visuellement les boîtes, gaines, connexions, zones humides ou enterrées."
+      },
+      {
+        "numero": 5,
+        "description": "Réparer ou remplacer le tronçon concerné",
+        "details": "Corrigez la fuite ou remplacez le câble avant de remettre en service."
+      }
+    ],
+    "normes_referencees": [
+      "RGIE 2020 - Chapitre 7.22.60",
+      "NBN C 15-100 - Tests d’isolement"
+    ],
+    "precautions": [
+      "Ne jamais utiliser un mégohmmètre sur un circuit sous tension",
+      "Toujours mesurer la résistance hors charge",
+      "Faire appel à un pro si la localisation du défaut est incertaine"
+    ],
+    "tags": ["isolement", "différentiel", "humidité", "détection", "rgie"]
+  },
+  {
+    "id": "prise-fonctionne-parfois",
+    "titre": "Prise de courant fonctionne par intermittence",
+    "categorie": "prise",
+    "niveau": "débutant",
+    "symptomes": [
+      "L’appareil branché s’allume et s’éteint de manière aléatoire",
+      "Un mouvement dans le mur relance la prise",
+      "Pas de déclenchement au tableau"
+    ],
+    "outils_requis": ["Multimètre", "Tournevis isolé", "Lampe témoin"],
+    "etapes": [
+      {
+        "numero": 1,
+        "description": "Couper le circuit concerné",
+        "details": "Coupez le disjoncteur de la ligne concernée avant toute intervention."
+      },
+      {
+        "numero": 2,
+        "description": "Ouvrir la prise murale",
+        "details": "Vérifiez le serrage des fils. Des connexions mal fixées peuvent provoquer des coupures intermittentes."
+      },
+      {
+        "numero": 3,
+        "description": "Contrôler l’état du câble en amont",
+        "details": "Inspectez la boîte de dérivation ou la prise précédente sur la ligne."
+      },
+      {
+        "numero": 4,
+        "description": "Tester avec une autre prise ou rallonge",
+        "details": "Permet d’éliminer un défaut interne à l’appareil."
+      },
+      {
+        "numero": 5,
+        "description": "Reserrer ou remplacer la prise",
+        "details": "Si nécessaire, remplacez la prise par un modèle conforme et resserrez les connexions."
+      }
+    ],
+    "normes_referencees": ["RGIE 2020", "NBN C 15-100 Art. 7.2.3.3"],
+    "precautions": [
+      "Ne jamais ignorer une panne intermittente : cela peut causer un échauffement",
+      "Utiliser des bornes à vis fiables",
+      "Remplacer les prises endommagées"
+    ],
+    "tags": ["prise", "intermittent", "serrage", "défaut", "sécurité"]
+  }
+]
