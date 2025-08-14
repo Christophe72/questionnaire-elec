@@ -1,0 +1,32 @@
+[
+  {
+    "version": "1.0",
+    "date": "2025-08-02",
+    "author": "OpenAI Assistant"
+  },
+  {
+    "id": 1,
+    "couleur": "Noir",
+    "description": "Un fil électrique noir est utilisé pour alimenter tous les circuits. Tout fil noir d’un circuit doit être considéré comme sous tension ou « chaud » ou « en direct ». Le fil noir n’est jamais utilisé pour un fil de terre ou neutre et doit être utilisé comme source d’alimentation pour un interrupteur ou une prise."
+  },
+  {
+    "id": 2,
+    "couleur": "Rouge (ou Brun)",
+    "description": "Un fil électrique rouge indique les fils sous tension secondaires d’un circuit de 220 volts. Un fil rouge peut être connecté à un autre fil rouge ou à un fil noir."
+  },
+  {
+    "id": 3,
+    "couleur": "Bleu et jaune",
+    "description": "Les fils électriques jaunes et bleus servent également à transporter l’alimentation, mais ne servent pas à câbler les prises qui servent à brancher les appareils électriques. Principalement le jaune est utilisé comme commutateur pour les ventilateurs, les lampes structurelles et les prises commutées. Le bleu est utilisé en tant que voyageur pour un commutateur à trois ou quatre voies."
+  },
+  {
+    "id": 4,
+    "couleur": "Blanc et gris",
+    "description": "Le blanc et le gris indiquent un fil neutre. Le blanc est la couleur la plus souvent utilisée pour cette fonction. Le blanc et le gris sont connectés uniquement à d’autres fils blancs et gris. Bien qu’ils soient neutres, ils peuvent toujours supporter le courant, en particulier la charge non équilibrée – l’électricité non utilisée et restituée au service électrique."
+  },
+  {
+    "id": 5,
+    "couleur": "Vert",
+    "description": "Le vert indique la mise à la terre d’un circuit électrique. Un fil vert ne peut être connecté qu’à un autre fil vert et ne doit jamais être connecté à un autre fil de couleur. Le fil vert a pour but de fournir un chemin à la terre pour le courant électrique d’un circuit si un fil sous tension dans le circuit touche un métal ou un autre matériel conducteur. En cas de défaut, il pourrait véhiculer un courant important, donc traitez les fils verts avec prudence."
+  }
+]

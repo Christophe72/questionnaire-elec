@@ -1,0 +1,30 @@
+[
+  {
+    "symptome": "prise ne fonctionne pas",
+    "protocoleId": "prise-ne-fonctionne-pas"
+  },
+  {
+    "symptome": "différentiel saute",
+    "protocoleId": "differentiel-saute"
+  },
+  {
+    "symptome": "interrupteur ne fonctionne pas",
+    "protocoleId": "interrupteur-ne-fonctionne-pas"
+  },
+  {
+    "symptome": "circuit surchargé",
+    "protocoleId": "circuit-surcharge"
+  },
+  {
+    "symptome": "court-circuit",
+    "protocoleId": "court-circuit"
+  },
+  {
+    "symptome": "disjoncteur saute",
+    "protocoleId": "disjoncteur-saute"
+  },
+  {
+    "symptome": "probleme rj45 ou ethernet",
+    "protocoleId": "rj45-ethernet"
+  }
+]

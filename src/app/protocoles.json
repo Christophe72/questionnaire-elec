@@ -1,0 +1,140 @@
+[
+  {
+    "id": "prise-ne-fonctionne-pas",
+    "titre": "Prise ne fonctionne pas",
+    "etapes": [
+      "Vérifier la présence de tension à la prise",
+      "Contrôler le disjoncteur associé",
+      "Tester la continuité des fils",
+      "Vérifier les connexions dans la boîte de dérivation",
+      "Remplacer la prise si nécessaire",
+      "REMISE EN SERVICE : Vérifier qu'il n'y a pas de charge sur le circuit",
+      "Remettre le disjoncteur en position ON",
+      "Tester le fonctionnement avec un appareil de test",
+      "Vérifier l'absence de défaut d'isolement"
+    ]
+  },
+  {
+    "id": "interrupteur-ne-fonctionne-pas",
+    "titre": "Interrupteur ne fonctionne pas",
+    "etapes": [
+      "Vérifier l'alimentation de l'interrupteur",
+      "Tester le fonctionnement de l'interrupteur avec un multimètre",
+      "Contrôler les connexions des fils",
+      "Remplacer l'interrupteur si défectueux",
+      "REMISE EN SERVICE : Vérifier qu'il n'y a pas de charge sur le circuit",
+      "Remettre l'alimentation",
+      "Tester le fonctionnement de l'interrupteur",
+      "Vérifier que l'éclairage fonctionne correctement"
+    ]
+  },
+  {
+    "id": "circuit-surcharge",
+    "titre": "Circuit surchargé",
+    "etapes": [
+      "Identifier les appareils connectés au circuit",
+      "Débrancher les appareils non essentiels",
+      "Vérifier la capacité du circuit",
+      "Répartir la charge sur plusieurs circuits si nécessaire",
+      "REMISE EN SERVICE : Vérifier qu'il n'y a pas de charge sur le circuit",
+      "Remettre le disjoncteur en position ON",
+      "Reconnecter les appareils un par un",
+      "Vérifier que le circuit ne se surcharge plus",
+      "Contrôler la température des connexions"
+    ]
+  },
+  {
+    "id": "court-circuit",
+    "titre": "Court-circuit",
+    "etapes": [
+      "Couper l'alimentation électrique immédiatement",
+      "Identifier la source du court-circuit",
+      "Vérifier les câbles et les connexions",
+      "Remplacer les composants endommagés",
+      "REMISE EN SERVICE : Vérifier qu'il n'y a pas de charge sur le circuit",
+      "Effectuer un contrôle d'isolement",
+      "Vérifier toutes les connexions",
+      "Remettre l'alimentation progressivement",
+      "Surveiller le bon fonctionnement pendant 15 minutes"
+    ]
+  },
+  {
+    "id": "disjoncteur-saute",
+    "titre": "Disjoncteur saute",
+    "etapes": [
+      "Identifier le circuit concerné",
+      "Débrancher les appareils connectés au circuit",
+      "Réinitialiser le disjoncteur",
+      "Si le problème persiste, vérifier les câbles et les appareils",
+      "REMISE EN SERVICE : Vérifier qu'il n'y a pas de charge sur le circuit",
+      "Réenclencher le disjoncteur à vide",
+      "Reconnecter les appareils un par un",
+      "Tester chaque appareil individuellement",
+      "Vérifier que le disjoncteur ne saute plus",
+      "Contrôler la charge totale du circuit"
+    ]
+  },
+  {
+    "id": "differentiel-saute",
+    "titre": "Différentiel saute",
+    "etapes": [
+      "Identifier le circuit concerné",
+      "Débrancher tous les appareils du circuit",
+      "Tester le différentiel avec un testeur de différentiel",
+      "Vérifier les connexions et les câbles",
+      "REMISE EN SERVICE : Vérifier qu'il n'y a pas de charge sur le circuit",
+      "Réenclencher le différentiel à vide",
+      "Reconnecter les appareils un par un",
+      "Tester chaque appareil pour détecter un éventuel défaut d'isolement",
+      "Vérifier que le différentiel ne saute plus"
+    ]
+  },
+  {
+    "id": "telerupteur-ne-fonctionne-pas",
+    "titre": "Télérupteur ne fonctionne pas",
+    "etapes": [
+      "Vérifier l'alimentation du télérupteur",
+      "Contrôler le bobinage du télérupteur",
+      "Tester les boutons poussoirs",
+      "Vérifier les connexions de commande",
+      "Contrôler les contacts de puissance",
+      "Remplacer le télérupteur si défectueux",
+      "REMISE EN SERVICE : Vérifier qu'il n'y a pas de charge sur le circuit",
+      "Remettre l'alimentation",
+      "Tester le fonctionnement avec les boutons poussoirs",
+      "Vérifier que l'éclairage fonctionne correctement"
+    ]
+  },
+  {
+    "id": "contacteur-ne-fonctionne-pas",
+    "titre": "Contacteur ne fonctionne pas",
+    "etapes": [
+      "Vérifier l'alimentation de la bobine",
+      "Contrôler la tension de commande",
+      "Tester la continuité de la bobine",
+      "Vérifier les contacts auxiliaires",
+      "Contrôler les contacts de puissance",
+      "Vérifier les connexions de commande",
+      "Remplacer le contacteur si défectueux",
+      "REMISE EN SERVICE : Vérifier qu'il n'y a pas de charge sur le circuit",
+      "Remettre l'alimentation de commande",
+      "Tester le fonctionnement du contacteur",
+      "Vérifier le bon fonctionnement du moteur/charge"
+    ]
+  },
+  {
+    "id": "rj45-ethernet",
+    "titre": "Problème RJ45 ou Ethernet",
+    "etapes": [
+      "Vérifier les connexions des câbles RJ45",
+      "Tester le câble avec un testeur de câble",
+      "Contrôler la configuration du routeur/switch",
+      "Redémarrer les équipements réseau",
+      "REMISE EN SERVICE : Vérifier que le câble est correctement connecté",
+      "Tester la connexion avec un ordinateur",
+      "Vérifier l'adresse IP et la connectivité réseau",
+      "Contrôler les paramètres de pare-feu et de sécurité",
+      "Assurer le bon fonctionnement de la connexion Internet"
+    ]
+  }
+]

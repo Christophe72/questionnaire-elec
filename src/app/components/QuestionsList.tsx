@@ -1,5 +1,5 @@
-"use client"  ;
-import React, { useState, useMemo } from "react";
+"use client";
+import React, { useState, useMemo, useEffect } from "react";
 import {
   Typography,
   TextField,
@@ -10,7 +10,7 @@ import {
   Collapse,
   Box,
   Chip,
-  Divider,
+  //   Divider,
 } from "@mui/material";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
@@ -41,6 +41,11 @@ type Props = {
 export default function QuestionsList({ questions }: Props) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [filter, setFilter] = useState("");
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const toggleSelect = (id: string) => {
     setSelectedId(selectedId === id ? null : id);
@@ -57,6 +62,10 @@ export default function QuestionsList({ questions }: Props) {
         q.tags.some((tag) => tag.toLowerCase().includes(f))
     );
   }, [filter, questions]);
+
+  if (!mounted) {
+    return <div>Chargement...</div>;
+  }
 
   return (
     <Box maxWidth={900} mx="auto" p={2}>
