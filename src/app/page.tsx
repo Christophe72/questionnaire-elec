@@ -8,6 +8,7 @@ import Qcm from "./components/Qcm";
 // import QcmProtocoles from "./components/QcmProtocoles";
 // import QcmPannes from "./components/QcmPannes";
 // import QcmCouleursFils from "./components/QcmCouleursFils";
+import Protocoles from "./components/Protocoles";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       {/* <QcmProtocoles protocoles={protocoles} />
       <QcmPannes pannes={pannes} protocoles={protocoles} />
       <QcmCouleursFils couleursFils={couleursFils} /> */}
+      <Protocoles />
     </div>
   );
 }
